@@ -3,19 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CE5647D0266E5059007B3D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5647CF266E5059007B3D43 /* AppDelegate.swift */; };
 		CE5647D2266E5059007B3D43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5647D1266E5059007B3D43 /* SceneDelegate.swift */; };
 		CE5647D4266E5059007B3D43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5647D3266E5059007B3D43 /* ViewController.swift */; };
-		CE5647D7266E5059007B3D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5647D5266E5059007B3D43 /* Main.storyboard */; };
 		CE5647D9266E505B007B3D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5647D8266E505B007B3D43 /* Assets.xcassets */; };
 		CE5647DC266E505B007B3D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5647DA266E505B007B3D43 /* LaunchScreen.storyboard */; };
 		CE5647E7266E505B007B3D43 /* testexamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5647E6266E505B007B3D43 /* testexamTests.swift */; };
 		CE5647F2266E505B007B3D43 /* testexamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5647F1266E505B007B3D43 /* testexamUITests.swift */; };
-		CE56487D266E600D007B3D43 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56487C266E600D007B3D43 /* SignInViewController.swift */; };
+		CE564889266F8B0E007B3D43 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = CE564888266F8B0E007B3D43 /* SwiftyJSON */; };
+		CE56488F266F8BC4007B3D43 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CE56488E266F8BC4007B3D43 /* Alamofire */; };
+		CE56489E266F9547007B3D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE56489C266F9547007B3D43 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		CE5647CF266E5059007B3D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5647D1266E5059007B3D43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE5647D3266E5059007B3D43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE5647D6266E5059007B3D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE5647D8266E505B007B3D43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5647DB266E505B007B3D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5647DD266E505B007B3D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		CE5647ED266E505B007B3D43 /* testexamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testexamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5647F1266E505B007B3D43 /* testexamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testexamUITests.swift; sourceTree = "<group>"; };
 		CE5647F3266E505B007B3D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE56487C266E600D007B3D43 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CE56489D266F9547007B3D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE564889266F8B0E007B3D43 /* SwiftyJSON in Frameworks */,
+				CE56488F266F8BC4007B3D43 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				CE5647CF266E5059007B3D43 /* AppDelegate.swift */,
+				CE56489C266F9547007B3D43 /* Main.storyboard */,
 				CE5647D1266E5059007B3D43 /* SceneDelegate.swift */,
 				CE5647D3266E5059007B3D43 /* ViewController.swift */,
-				CE5647D5266E5059007B3D43 /* Main.storyboard */,
 				CE5647D8266E505B007B3D43 /* Assets.xcassets */,
 				CE5647DA266E505B007B3D43 /* LaunchScreen.storyboard */,
-				CE56487C266E600D007B3D43 /* SignInViewController.swift */,
 				CE5647DD266E505B007B3D43 /* Info.plist */,
 			);
 			path = testexam;
@@ -147,6 +148,10 @@
 			dependencies = (
 			);
 			name = testexam;
+			packageProductDependencies = (
+				CE564888266F8B0E007B3D43 /* SwiftyJSON */,
+				CE56488E266F8BC4007B3D43 /* Alamofire */,
+			);
 			productName = testexam;
 			productReference = CE5647CC266E5059007B3D43 /* testexam.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +223,10 @@
 				Base,
 			);
 			mainGroup = CE5647C3266E5059007B3D43;
+			packageReferences = (
+				CE564887266F8B0E007B3D43 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				CE56488D266F8BC4007B3D43 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = CE5647CD266E5059007B3D43 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,9 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE56489E266F9547007B3D43 /* Main.storyboard in Resources */,
 				CE5647DC266E505B007B3D43 /* LaunchScreen.storyboard in Resources */,
 				CE5647D9266E505B007B3D43 /* Assets.xcassets in Resources */,
-				CE5647D7266E5059007B3D43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE56487D266E600D007B3D43 /* SignInViewController.swift in Sources */,
 				CE5647D4266E5059007B3D43 /* ViewController.swift in Sources */,
 				CE5647D0266E5059007B3D43 /* AppDelegate.swift in Sources */,
 				CE5647D2266E5059007B3D43 /* SceneDelegate.swift in Sources */,
@@ -300,20 +308,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE5647D5266E5059007B3D43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE5647D6266E5059007B3D43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE5647DA266E505B007B3D43 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CE5647DB266E505B007B3D43 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE56489C266F9547007B3D43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE56489D266F9547007B3D43 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -591,6 +599,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE564887266F8B0E007B3D43 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		CE56488D266F8BC4007B3D43 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE564888266F8B0E007B3D43 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE564887266F8B0E007B3D43 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		CE56488E266F8BC4007B3D43 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE56488D266F8BC4007B3D43 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE5647C4266E5059007B3D43 /* Project object */;
 }
