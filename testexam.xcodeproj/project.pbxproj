@@ -15,6 +15,7 @@
 		CE5647DC266E505B007B3D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5647DA266E505B007B3D43 /* LaunchScreen.storyboard */; };
 		CE5647E7266E505B007B3D43 /* testexamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5647E6266E505B007B3D43 /* testexamTests.swift */; };
 		CE5647F2266E505B007B3D43 /* testexamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5647F1266E505B007B3D43 /* testexamUITests.swift */; };
+		CE56487D266E600D007B3D43 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56487C266E600D007B3D43 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE5647ED266E505B007B3D43 /* testexamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testexamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5647F1266E505B007B3D43 /* testexamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testexamUITests.swift; sourceTree = "<group>"; };
 		CE5647F3266E505B007B3D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE56487C266E600D007B3D43 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				CE5647D5266E5059007B3D43 /* Main.storyboard */,
 				CE5647D8266E505B007B3D43 /* Assets.xcassets */,
 				CE5647DA266E505B007B3D43 /* LaunchScreen.storyboard */,
+				CE56487C266E600D007B3D43 /* SignInViewController.swift */,
 				CE5647DD266E505B007B3D43 /* Info.plist */,
 			);
 			path = testexam;
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE56487D266E600D007B3D43 /* SignInViewController.swift in Sources */,
 				CE5647D4266E5059007B3D43 /* ViewController.swift in Sources */,
 				CE5647D0266E5059007B3D43 /* AppDelegate.swift in Sources */,
 				CE5647D2266E5059007B3D43 /* SceneDelegate.swift in Sources */,
